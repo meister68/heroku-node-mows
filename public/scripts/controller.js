@@ -8,7 +8,7 @@ $(document).ready(function () {
     var arrSubTopics = [];
     var arrPubTopics = [];
     var index;
-  
+    client = mqtt.connect(broker);
   
     $("#btnConnect").click(function () {
       // basic functionalities
@@ -154,4 +154,4 @@ $(document).ready(function () {
   //   } else {
   //     console.log("published")
   //   }
-  // })
+  // }) 
