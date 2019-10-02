@@ -1,0 +1,26 @@
+{
+  "name": "heroku-node-mows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meister68/heroku-node-mows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meister68/heroku-node-mows/issues"
+  },
+  "homepage": "https://github.com/meister68/heroku-node-mows#readme",
+  "engines": {
+    "node" :"10.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
