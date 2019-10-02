@@ -18,9 +18,9 @@ $(document).ready(function () {
       client.on("connect", function () {
         $("#status").val("Connected");
         $("#status").removeClass("bg-danger").addClass("bg-success");
-  
+        $(".btnSecondary").attr("disabled", false);
       });
-      $(".btnSsecondary").attr("disabled", false);
+     
   
     });
   
@@ -28,7 +28,6 @@ $(document).ready(function () {
       client.end();
       $("#status").val("Disconnected");
       $("#status").removeClass("bg-success").addClass("bg-danger");
-      $(".btnSsecondary").attr("disabled", true);
   
     });
   
